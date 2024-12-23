@@ -1,0 +1,30 @@
+
+.header{
+    text-align: center;
+    background-color: red;
+    height: 200px;
+    width: 400px;
+    margin: auto;
+    border-style: dashed;
+    border-color: blue;
+    border-radius: 15px;
+    border-width: 2px;
+}
+.text{
+    margin-top: 30px;
+    background-color: green;
+    padding-top: 10px;
+    box-shadow: 0 0 20px black;
+    text-align: center;
+    border-style: dotted;
+    border-color: yellow;
+    border-width: 2px;
+}
+.footer{
+background-color: blue;
+border-radius: 20px;
+margin-top: 150px;
+text-align: center;
+border-style: solid;
+border-color: blueviolet;
+}
