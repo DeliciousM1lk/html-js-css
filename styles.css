@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background: #0073e6;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background: #004080;
+    padding: 0.5rem 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+.card {
+    background: #f4f4f4;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 0;
+    margin-top: 1rem;
+}
+
+@media screen and (max-width: 380px) {
+    nav {
+        flex-direction: column;
+    }
+
+    nav a {
+        padding: 0.5rem 0;
+    }
+
+    .card {
+        font-size: 0.9rem;
+    }
+}
