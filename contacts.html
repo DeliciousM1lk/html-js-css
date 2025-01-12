@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Коровушка - Контакты</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Коровушка</div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="product.html">О продукте</a></li>
+                <li><a href="contacts.html">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contact Section -->
+    <section class="content">
+        <h2>Свяжитесь с нами</h2>
+        <p>Вы можете написать нам или позвонить для получения дополнительной информации:</p>
+        <ul>
+            <li>Email: info@korovushka.ru</li>
+            <li>Телефон: +7 123 456 7890</li>
+        </ul>
+        <form>
+            <label for="name">Ваше имя:</label><br>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Ваш email:</label><br>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Сообщение:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <button type="submit">Отправить</button>
+        </form>
+        <div class="additional-images">
+            <img src="cow.jpg" alt="Корова на лугу">
+            <img src="farm.jpg" alt="Ферма">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        &copy; 2025 Коровушка. Все права защищены.
+    </footer>
+</body>
+</html>
